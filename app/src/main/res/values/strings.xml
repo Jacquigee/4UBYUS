@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Groceries</string>
+    <string name="logo">logo</string>
+    <string name="Splash_text">Fresh fruits and vegies</string>
+</resources>
