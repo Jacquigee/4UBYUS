@@ -13,12 +13,14 @@ class LoginActivity : AppCompatActivity() {
 
         btnLogin.setOnClickListener{
 
-            if(edUsername.text.trim().isNotEmpty() || edPassword.text.trim().isNotEmpty()){
-                //
-                Toast.makeText(this, "Input provided", Toast.LENGTH_LONG).show()
-            }else{
-                Toast.makeText(this, "Input required", Toast.LENGTH_LONG).show()
-            }
+//            if(edUsername.text.trim().isNotEmpty() || edPassword.text.trim().isNotEmpty()){
+//                //
+//                Toast.makeText(this, "Input provided", Toast.LENGTH_LONG).show()
+//            }else{
+//                Toast.makeText(this, "Input required", Toast.LENGTH_LONG).show()
+//            }
+            val intent = Intent(this, MainActivity:: class.java);
+            startActivity(intent)
         }
 
         tvRegister.setOnClickListener {
