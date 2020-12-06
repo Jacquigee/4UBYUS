@@ -2,6 +2,7 @@ package com.jacqui.groceries
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -23,8 +24,8 @@ class MainActivity : AppCompatActivity() {
     private fun initRecyclerView(){
         mainRecyclerview.apply{
             layoutManager = LinearLayoutManager(this@MainActivity)
-            val topSpacingDecorator = TopSpacingItemDecoration(30)
-            addItemDecoration(topSpacingDecorator)
+//            val topSpacingDecorator = TopSpacingItemDecoration(30)
+//            addItemDecoration(topSpacingDecorator)
             productAdapter = ProductRecyclerAdapter()
             adapter = productAdapter
         }
