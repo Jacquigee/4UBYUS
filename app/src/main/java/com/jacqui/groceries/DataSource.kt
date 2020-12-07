@@ -30,7 +30,7 @@ class DataSource{
             )
             list.add(
                 ProductItem(
-                    "apple",
+                    "Apple",
                     "https://raw.githubusercontent.com/Jacquigee/4UBYUS/master/app/src/main/res/drawable/apple.png",
                     "KSH 300",
                     "KG",
@@ -43,7 +43,7 @@ class DataSource{
                 ProductItem(
                     "Bananas",
                     "https://raw.githubusercontent.com/Jacquigee/4UBYUS/master/app/src/main/res/drawable/banana.png",
-                    "KSH 300/kg",
+                    "KSH 300",
                     "KG",
                     1.0,
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam luctus sollicitudin risus eget accumsan. Pellentesque fringilla finibus tristique."
@@ -85,7 +85,7 @@ class DataSource{
             )
             list.add(
                 ProductItem(
-                    "potato",
+                    "Potatoes",
                     "https://raw.githubusercontent.com/Jacquigee/4UBYUS/master/app/src/main/res/drawable/potato.png",
                     "KSH 300",
                     "KG",

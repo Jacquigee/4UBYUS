@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
     }
     private fun initRecyclerView(){
         mainRecyclerview.apply{
-            layoutManager = LinearLayoutManager(this@MainActivity)
+            layoutManager = GridLayoutManager(this@MainActivity, 2)
 //            val topSpacingDecorator = TopSpacingItemDecoration(30)
 //            addItemDecoration(topSpacingDecorator)
             productAdapter = ProductRecyclerAdapter()

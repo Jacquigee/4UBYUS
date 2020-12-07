@@ -4,4 +4,5 @@
     <string name="Splash_text">Fresh fruits and vegies</string>
     <string name="add_to_cart">Add to Cart</string>
     <string name="product_image">Product Image</string>
+    <string name="in_stock">What\'s in stock</string>
 </resources>

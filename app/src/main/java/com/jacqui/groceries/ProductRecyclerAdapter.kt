@@ -44,14 +44,14 @@ class ProductRecyclerAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>(){
         private val productImage: ImageView = itemView.productImage
         private val productName: TextView = itemView.tvProductName
         private val productPrice: TextView = itemView.tvPrice
-        private val productDescription: TextView = itemView.tvProductDescription
+        //private val productDescription: TextView = itemView.tvProductDescription
         private val productUnit: TextView = itemView.tvUnit
         private val productQuantity: TextView = itemView.tvQuantity
 
         fun bind(productItem: ProductItem){
             productName.text = productItem.title
             productPrice.text = productItem.price
-            productDescription.text = productItem.description
+            //productDescription.text = productItem.description
             productUnit.text = productItem.unit
             productQuantity.text = productItem.quantity.toString()
 

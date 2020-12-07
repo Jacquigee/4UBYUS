@@ -10,10 +10,9 @@
 
     <ImageView
         android:id="@+id/productImage"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="8dp"
         android:contentDescription="Product Image"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -28,23 +27,12 @@
         android:fontFamily="@font/roboto_mono"
         android:shadowColor="#000000"
         android:text="TextView"
+        android:textColor="#FFF"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/productImage"
         app:layout_constraintTop_toTopOf="@+id/productImage" />
 
-    <TextView
-        android:id="@+id/tvProductDescription"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:fontFamily="@font/roboto_mono_light"
-        android:shadowColor="#000000"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="@+id/productImage"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/tvProductName"
-        app:layout_constraintTop_toBottomOf="@+id/tvProductName" />
 
     <TextView
         android:id="@+id/tvPrice"
@@ -52,8 +40,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="TextView"
-        app:layout_constraintStart_toStartOf="@+id/tvProductDescription"
-        app:layout_constraintTop_toBottomOf="@+id/tvProductDescription" />
+        android:textColor="#FFF"
+        app:layout_constraintStart_toStartOf="@+id/tvProductName"
+        app:layout_constraintTop_toBottomOf="@+id/tvProductName" />
 
     <TextView
         android:id="@+id/tvQuantity"
@@ -62,8 +51,9 @@
         android:layout_marginStart="2dp"
         android:layout_marginTop="8dp"
         android:text="TextView"
+        android:textColor="#FFF"
         app:layout_constraintStart_toEndOf="@+id/tvPrice"
-        app:layout_constraintTop_toBottomOf="@+id/tvProductDescription" />
+        app:layout_constraintTop_toBottomOf="@+id/tvProductName" />
 
     <TextView
         android:id="@+id/tvUnit"
@@ -71,6 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="2dp"
         android:text="TextView"
+        android:textColor="#FFF"
         app:layout_constraintBottom_toBottomOf="@+id/tvQuantity"
         app:layout_constraintStart_toEndOf="@+id/tvQuantity"
         app:layout_constraintTop_toTopOf="@+id/tvQuantity" />
